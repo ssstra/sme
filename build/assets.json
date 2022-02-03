@@ -1,0 +1,101 @@
+{
+  "version": "4a115165",
+  "entry": {
+    "module": "/build/entry.client-SNRTB3F2.js",
+    "imports": [
+      "/build/_shared/chunk-VDMMH37O.js",
+      "/build/_shared/chunk-AKSB5QXU.js"
+    ]
+  },
+  "routes": {
+    "root": {
+      "id": "root",
+      "path": "",
+      "module": "/build/root-LJB5PSNQ.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": true
+    },
+    "routes/contact": {
+      "id": "routes/contact",
+      "parentId": "root",
+      "path": "contact",
+      "module": "/build/routes/contact-IEBDD4KP.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/index": {
+      "id": "routes/index",
+      "parentId": "root",
+      "index": true,
+      "module": "/build/routes/index-CM4EMY77.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/me": {
+      "id": "routes/me",
+      "parentId": "root",
+      "path": "me",
+      "module": "/build/routes/me-COTLOQQN.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/posts": {
+      "id": "routes/posts",
+      "parentId": "root",
+      "path": "posts",
+      "module": "/build/routes/posts-4K3SIT32.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/posts/$postId": {
+      "id": "routes/posts/$postId",
+      "parentId": "routes/posts",
+      "path": ":postId",
+      "module": "/build/routes/posts/$postId-QPBNPLJH.js",
+      "imports": [
+        "/build/_shared/chunk-GLNUVGVW.js"
+      ],
+      "hasAction": true,
+      "hasLoader": true,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/posts/index": {
+      "id": "routes/posts/index",
+      "parentId": "routes/posts",
+      "index": true,
+      "module": "/build/routes/posts/index-ZU5HMZI2.js",
+      "imports": [
+        "/build/_shared/chunk-GLNUVGVW.js"
+      ],
+      "hasAction": false,
+      "hasLoader": true,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
+    "routes/posts/writeanewpost": {
+      "id": "routes/posts/writeanewpost",
+      "parentId": "routes/posts",
+      "path": "writeanewpost",
+      "module": "/build/routes/posts/writeanewpost-XTEIE3YB.js",
+      "imports": [
+        "/build/_shared/chunk-GLNUVGVW.js"
+      ],
+      "hasAction": true,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    }
+  },
+  "url": "/build/manifest-4A115165.js"
+}

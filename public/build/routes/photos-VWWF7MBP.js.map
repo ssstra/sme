@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/shane/shanesme/core/app/routes/photos.jsx?browser", "../../../app/routes/photos.jsx"],
+  "sourcesContent": ["export { default } from \"/Users/shane/shanesme/core/app/routes/photos.jsx\";", "import { Outlet } from \"remix\";\n\nfunction Photos() {\n  return (\n    <>\n      <Outlet />\n      <div>\n        <h1>Photos</h1>\n      </div>\n    </>\n  );\n}\n\nexport default Photos;\n"],
+  "mappings": ";;;;;;;;;AAAA;;;ACAA;AAEA,kBAAkB;AAChB,SACE,0DACE,oCAAC,gCAAD,OACA,oCAAC,OAAD,MACE,oCAAC,MAAD,MAAI;AAAA;AAMZ,IAAO,iBAAQ;",
+  "names": []
+}

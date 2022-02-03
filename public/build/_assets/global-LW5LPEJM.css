@@ -1,0 +1,244 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+::-moz-selection {
+  background: rgba(255, 255, 83, 0.99);
+  color: #032764;
+}
+::-webkit-selection {
+  background: rgba(255, 255, 83, 0.99);
+  color: #032764;
+}
+::selection {
+  background: rgba(255, 255, 83, 0.99);
+  color: #032764;
+}
+
+@font-face {
+  font-family: "fff_tusjbold";
+  src: url("./fonts/fff_tusj-webfont.woff2") format("woff2"),
+    url("./fonts/fff_tusj-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "recursivesans_linear_light";
+  src: url("./fonts/recursive_vf_1.078-webfont.woff2") format("woff2"),
+    url("./fonts/recursive_vf_1.078-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "recursivesans_linear_light", sans-serif;
+  background-color: #fff;
+  height: 100vh;
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(153, 56, 56);
+  -webkit-transition: color 0.5s ease 0s;
+  transition: color 0.5s ease 0s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(238, 255, 162);
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  margin: 10px 0;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 10vh;
+  padding: 0 30px;
+  font-size: 30px;
+}
+
+.container div {
+  margin-left: 5vw;
+}
+.container li a {
+  background-color: rgba(255, 255, 83, 0.99);
+  font-size: 28px;
+  -webkit-transition: color 0.5s ease 0s;
+  transition: color 0.5s ease 0s;
+}
+
+.logo {
+  text-transform: uppercase;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  /* background-color: #9dbabd; */
+  background-color: rgb(0, 0, 0);
+  font-size: 24px;
+  padding: 5px 30px;
+  text-transform: lowercase;
+  border-bottom: 1px solid rgb(218, 0, 0);
+}
+.navbar a {
+  text-decoration: none;
+  color: rgb(233, 233, 233);
+  border-bottom: none;
+  -webkit-transition: color 0.7s ease 0s;
+  transition: color 0.7s ease 0s;
+}
+.navbar a:hover {
+  text-decoration: none;
+  color: rgb(228, 255, 110);
+  border-bottom: none;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar li {
+  margin-left: 20px;
+}
+
+.navbar ul li a {
+  color: rgb(231, 231, 231);
+  text-transform: uppercase;
+  margin-left: 40px;
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn-reverse {
+  background: #fff;
+  color: #000;
+  border-color: #000;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.btn-delete {
+  background: darkred;
+  color: #fff;
+  border-color: darkred;
+  font-size: 13px;
+  padding: 5px 10px;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: inline;
+  width: 50vw;
+  padding: 30px 10px;
+  margin-top: 5px;
+}
+
+.form-control input,
+.form-control textarea {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.form-control textarea {
+  height: 35vh;
+}
+
+.form-control-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-control-check label {
+  flex: 1;
+}
+
+.form-control-check input {
+  flex: 2;
+  height: 20px;
+}
+
+.posts-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.posts-list li {
+  padding: 20px;
+  border: 1px #333 solid;
+  border-radius: 5px;
+}
+
+.posts-list li h3 {
+  margin-bottom: 5px;
+}
+
+.error {
+  color: darkred;
+}

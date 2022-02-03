@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/shane/shanesme/core/app/routes/index.jsx?browser", "../../../app/routes/index.jsx"],
+  "sourcesContent": ["export { default } from \"/Users/shane/shanesme/core/app/routes/index.jsx\";", "function Home() {\n  return (\n    <div style={{ lineHeight: \"1.5\" }}>\n      <h1>shane s[.me]</h1>\n      <ul>\n        <li>@</li>\n        <li>Full stack developer in Washington.</li>\n        <li>\n          <a target=\"_blank\" href=\"/contact\" rel=\"noreferrer\">\n            \u21B3&nbsp;Twitter\n          </a>\n        </li>\n        <li>\n          <a target=\"_blank\" href=\"/contact\" rel=\"noreferrer\">\n            \u21B3&nbsp;Send me a message\n          </a>\n        </li>\n      </ul>\n    </div>\n  );\n}\n\nexport default Home;\n"],
+  "mappings": ";;;;;;AAAA;;;ACAA;AAAA,gBAAgB;AACd,SACE,oCAAC,OAAD;AAAA,IAAK,OAAO,EAAE,YAAY;AAAA,KACxB,oCAAC,MAAD,MAAI,iBACJ,oCAAC,MAAD,MACE,oCAAC,MAAD,MAAI,MACJ,oCAAC,MAAD,MAAI,wCACJ,oCAAC,MAAD,MACE,oCAAC,KAAD;AAAA,IAAG,QAAO;AAAA,IAAS,MAAK;AAAA,IAAW,KAAI;AAAA,KAAa,uBAItD,oCAAC,MAAD,MACE,oCAAC,KAAD;AAAA,IAAG,QAAO;AAAA,IAAS,MAAK;AAAA,IAAW,KAAI;AAAA,KAAa;AAAA;AAS9D,IAAO,iBAAQ;",
+  "names": []
+}

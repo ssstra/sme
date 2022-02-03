@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/shane/shanesme/core/app/routes/me.jsx?browser", "../../../app/routes/me.jsx"],
+  "sourcesContent": ["export { default } from \"/Users/shane/shanesme/core/app/routes/me.jsx\";", "import { Outlet } from \"remix\";\n\nfunction Me() {\n  return (\n    <div>\n      <h1>About Me</h1>\n      <ul>\n        <li>\n          Hi, <br />\n          I'm Shane.\n          <br />I lived in Alaska.\n          <br />\n          I now live in Washington State.\n          <br />\n          <br />\n          I'm a full stack developer.\n          <br />I have more experience with FrontEnd.\n          <br />I graduated with my Bachelor's in 2013.\n          <br />I graduated with my Master's in 2014.\n          <br />\n        </li>\n      </ul>\n    </div>\n  );\n}\n\nexport default Me;\n"],
+  "mappings": ";;;;;;AAAA;;;ACAA;AAEA,cAAc;AACZ,SACE,oCAAC,OAAD,MACE,oCAAC,MAAD,MAAI,aACJ,oCAAC,MAAD,MACE,oCAAC,MAAD,MAAI,QACE,oCAAC,MAAD,OAAM,cAEV,oCAAC,MAAD,OAAM,sBACN,oCAAC,MAAD,OAAM,mCAEN,oCAAC,MAAD,OACA,oCAAC,MAAD,OAAM,+BAEN,oCAAC,MAAD,OAAM,yCACN,oCAAC,MAAD,OAAM,2CACN,oCAAC,MAAD,OAAM,yCACN,oCAAC,MAAD;AAAA;AAOV,IAAO,aAAQ;",
+  "names": []
+}

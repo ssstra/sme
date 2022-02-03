@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/shane/shanesme/core/app/routes/me.jsx?browser", "../../../app/routes/me.jsx"],
+  "sourcesContent": ["export { default } from \"/Users/shane/shanesme/core/app/routes/me.jsx\";", "import { Outlet } from \"remix\";\n\nfunction Photos() {\n  return (\n    <>\n      <Outlet />\n\n      <div style={{ lineHeight: \"1.5\" }}>\n        <h1>Shane</h1>\n        <ul>\n          <li>Full stack developer living in Washington.</li>\n        </ul>\n      </div>\n    </>\n  );\n}\n\nexport default Photos;\n"],
+  "mappings": ";;;;;;;;;AAAA;;;ACAA;AAEA,kBAAkB;AAChB,SACE,0DACE,oCAAC,gCAAD,OAEA,oCAAC,OAAD;AAAA,IAAK,OAAO,EAAE,YAAY;AAAA,KACxB,oCAAC,MAAD,MAAI,UACJ,oCAAC,MAAD,MACE,oCAAC,MAAD,MAAI;AAAA;AAOd,IAAO,aAAQ;",
+  "names": []
+}

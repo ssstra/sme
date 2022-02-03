@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/shane/shanesme/core/app/routes/me.jsx?browser"],
+  "sourcesContent": ["export * from \"/Users/shane/shanesme/core/app/routes/me.jsx\";"],
+  "mappings": ";;;;;AAAA;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/shane/shanesme/core/app/routes/index.jsx?browser", "../../../app/routes/index.jsx"],
+  "sourcesContent": ["export { default } from \"/Users/shane/shanesme/core/app/routes/index.jsx\";", "function Home() {\n  return (\n    <div style={{ lineHeight: \"1.5\" }}>\n      <h1>shane s[.me]</h1>\n      <ul>\n        <li>\n          Hi, I'm Shane. I am a full stack developer living in Washington.\n        </li>\n\n        <li>\n          <a target=\"_self\" href=\"/me\" rel=\"noreferrer\">\n            \u21B3&nbsp;Learn more about who I am\n          </a>\n        </li>\n\n        <li>\n          <a target=\"_self\" href=\"/contact\" rel=\"noreferrer\">\n            \u21B3&nbsp;Send me a message\n          </a>\n        </li>\n\n        <li>\n          <a target=\"_blank\" href=\"https://github.com/ssstra\" rel=\"noreferrer\">\n            \u21B3&nbsp;Pay a visit to my github\n          </a>\n        </li>\n      </ul>\n    </div>\n  );\n}\n\nexport default Home;\n"],
+  "mappings": ";;;;;;AAAA;;;ACAA;AAAA,gBAAgB;AACd,SACE,oCAAC,OAAD;AAAA,IAAK,OAAO,EAAE,YAAY;AAAA,KACxB,oCAAC,MAAD,MAAI,iBACJ,oCAAC,MAAD,MACE,oCAAC,MAAD,MAAI,qEAIJ,oCAAC,MAAD,MACE,oCAAC,KAAD;AAAA,IAAG,QAAO;AAAA,IAAQ,MAAK;AAAA,IAAM,KAAI;AAAA,KAAa,yCAKhD,oCAAC,MAAD,MACE,oCAAC,KAAD;AAAA,IAAG,QAAO;AAAA,IAAQ,MAAK;AAAA,IAAW,KAAI;AAAA,KAAa,iCAKrD,oCAAC,MAAD,MACE,oCAAC,KAAD;AAAA,IAAG,QAAO;AAAA,IAAS,MAAK;AAAA,IAA4B,KAAI;AAAA,KAAa;AAAA;AAS/E,IAAO,iBAAQ;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/shane/shanesme/core/app/routes/index.jsx?browser", "../../../app/routes/index.jsx"],
+  "sourcesContent": ["export { default } from \"/Users/shane/shanesme/core/app/routes/index.jsx\";", "function Home() {\n  return (\n    <div style={{ lineHeight: \"1.5\" }}>\n      <h1>shane s[.me]</h1>\n      <ul>\n        <li>This is some introductory text.</li>\n\n        <li>\n          <i class=\"fas fa-arrow-right fa-2x fa-pull-right fa-border\"></i>\n          Gatsby believed in the green light, the orgastic future that year by\n          year recedes before us. It eluded us then, but that\u2019s no matter \u2014\n          tomorrow we will run faster, stretch our arms further... And one fine\n          morning \u2014 So we beat on, boats against the current, borne back\n          ceaselessly into the past.\n        </li>\n        <li>\n          <a target=\"_blank\" href=\"/contact\" rel=\"noreferrer\">\n            \uD83D\uDCF2 Send me a message\n          </a>\n        </li>\n      </ul>\n    </div>\n  );\n}\n\nexport default Home;\n"],
+  "mappings": ";;;;;;AAAA;;;ACAA;AAAA,gBAAgB;AACd,SACE,oCAAC,OAAD;AAAA,IAAK,OAAO,EAAE,YAAY;AAAA,KACxB,oCAAC,MAAD,MAAI,iBACJ,oCAAC,MAAD,MACE,oCAAC,MAAD,MAAI,oCAEJ,oCAAC,MAAD,MACE,oCAAC,KAAD;AAAA,IAAG,OAAM;AAAA,MAAuD,0TAOlE,oCAAC,MAAD,MACE,oCAAC,KAAD;AAAA,IAAG,QAAO;AAAA,IAAS,MAAK;AAAA,IAAW,KAAI;AAAA,KAAa;AAAA;AAS9D,IAAO,iBAAQ;",
+  "names": []
+}

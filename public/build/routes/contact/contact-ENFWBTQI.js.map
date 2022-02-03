@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/shane/shanesme/core/app/routes/contact/contact.js?browser"],
+  "sourcesContent": ["export * from \"/Users/shane/shanesme/core/app/routes/contact/contact.js\";"],
+  "mappings": ";;;;;AAAA;",
+  "names": []
+}
