@@ -14,19 +14,17 @@ function Home() {
 
         <li>
           <a target="_self" href="/me" rel="noreferrer">
-            ↳&nbsp;Learn more about me.
+            &nbsp; &nbsp; ↳&nbsp;Learn more about me.
           </a>
         </li>
-
         <li>
           <a target="_self" href="/contact" rel="noreferrer">
-            ↳&nbsp;Send me a message.
+            &nbsp; &nbsp; ↳&nbsp;Send me a message.
           </a>
         </li>
-
         <li>
           <a target="_blank" href="https://github.com/ssstra" rel="noreferrer">
-            ↳&nbsp;Pay a visit to my github.
+            &nbsp; &nbsp; ↳&nbsp;Pay a visit to my github.
           </a>
         </li>
       </ul>

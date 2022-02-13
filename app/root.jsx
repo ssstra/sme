@@ -3,6 +3,7 @@ import {
   Links,
   LiveReload,
   Meta,
+  NavLink,
   Outlet,
   Scripts,
   ScrollRestoration,
@@ -16,7 +17,7 @@ export const meta = () => {
   const description = "personal development site";
   const keywords = "javascript, react, developer";
   return {
-    title: "Shanesme",
+    title: "Shane S dot Me",
     description,
     keywords,
   };
@@ -53,18 +54,34 @@ function Document({ children }) {
 }
 
 function Layout({ children }) {
+  let activeStyle = {
+    color: "rgb(238, 255, 162)",
+  };
+  let activeClassName = "underline";
   return (
     <>
       <nav className="navbar">
-        <Link to="/" className="logo">
-          home
-        </Link>
+        <NavLink
+          className="logo"
+          to="/"
+          style={({ isActive }) => (isActive ? activeStyle : undefined)}
+        >
+          Home
+        </NavLink>
         <ul>
           <li>
-            {/* <Link to="/posts">Posts</Link>
-            <Link to="/contact">Contact</Link>
-            <Link to="/posts">Posts</Link>
-            <Link to="/contact">Contact</Link> */}
+            <NavLink
+              to="me"
+              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            >
+              About
+            </NavLink>
+            <NavLink
+              to="contact"
+              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            >
+              Contact
+            </NavLink>
           </li>
         </ul>
       </nav>
@@ -78,7 +95,7 @@ export function ErrorBoundary({ error }) {
   return (
     <Document>
       <Layout>
-        <h1>Errors!!</h1>
+        <h1>Uh-oh, Some Errors Abound!</h1>
         <p>{error.message}</p>
       </Layout>
     </Document>

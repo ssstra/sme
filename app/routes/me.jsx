@@ -7,8 +7,9 @@ function Me() {
       <ul>
         <li>
           Hi, <br />
-          &nbsp; I'm Shane.
-          <br />I lived in Alaska.
+          &nbsp; I'm <span>Shane</span>.
+          <br />
+          I'm from Alaska.
           <br />
           &nbsp; I now live in Washington.
           <br />
@@ -22,7 +23,7 @@ function Me() {
           <br />
           &nbsp; Looking for new opportunities.
           <br />
-          &nbsp; Working to improve on Rails and C++.
+          &nbsp; Learning Ruby on Rails and Remix.
         </li>
       </ul>
     </div>
