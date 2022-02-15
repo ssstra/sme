@@ -14,8 +14,8 @@ function Me() {
           &nbsp; I now live in Washington.
           <br />
           <br />
-          I'm a full stack developer. <br />
-          &nbsp; I focus on JavaScript and React.
+          I'm a full stack developer and data scientist. <br />
+          &nbsp; I focus on JavaScript, React, and SQL.
           <br />I graduated with my Bachelor's in 2013.
           <br />
           &nbsp; I graduated with my Master's in 2014.
