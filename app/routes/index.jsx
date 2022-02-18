@@ -9,8 +9,7 @@ function Home() {
           Hi, I'm <span>Shane</span>.
           <br />I live in Washington.
           <br />
-          I'm a full stack developer with a background in data and political
-          research.
+          I'm a developer with a background in data and political research.
         </li>
 
         <li>

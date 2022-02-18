@@ -14,16 +14,16 @@ function Me() {
           &nbsp; I now live in Washington.
           <br />
           <br />
-          I'm a full stack developer and data scientist. <br />
-          &nbsp; I focus on JavaScript, React, and SQL.
+          I'm a full stack developer with a focus on web applications and data
+          analysis.
+          <br />
+          &nbsp; I primarily use JavaScript, React, RoR, and SQL.
           <br />I graduated with my Bachelor's in 2013.
           <br />
           &nbsp; I graduated with my Master's in 2014.
           <br />I am currently:
           <br />
           &nbsp; Looking for new opportunities.
-          <br />
-          &nbsp; Learning Ruby on Rails and Remix.
         </li>
       </ul>
     </div>
