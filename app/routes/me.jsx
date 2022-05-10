@@ -23,10 +23,7 @@ function Me() {
           I completed my education in the United Kingdom, where I graduated with
           my Bachelor's in 2013 and my Master's in 2014.
         </li>
-        <li>
-          If you would like to get in touch, don't hesitate to send me a message
-          and introduce yourself!
-        </li>
+        <li>If you would like to get in touch, please send me a message.</li>
       </ul>
     </div>
   );

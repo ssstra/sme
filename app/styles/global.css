@@ -122,11 +122,7 @@ h1 {
 }
 
 .container li {
-  padding-top: 20px;
-}
-
-.container li a {
-  padding-top: 0px !important;
+  padding-top: 10px;
 }
 
 .navbar ul li a {
