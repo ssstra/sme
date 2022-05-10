@@ -6,24 +6,18 @@ function Me() {
       <h1>About Me</h1>
       <ul>
         <li>
-          Hi, <br />
-          &nbsp; I'm <span>Shane</span>.
-          <br />
-          I'm from Alaska.
-          <br />
-          &nbsp; I now live in Washington.
-          <br />
-          <br />
-          I'm a full stack developer with a focus on web applications and data
-          analysis.
-          <br />
-          &nbsp; I primarily use JavaScript, React, RoR, and SQL.
-          <br />I graduated with my Bachelor's in 2013.
-          <br />
-          &nbsp; I graduated with my Master's in 2014.
-          <br />I am currently:
-          <br />
-          &nbsp; Looking for new opportunities.
+          Hello! My name's Shane and I'm a software engineer with a focus on web
+          applications and data analysis. I was born in Salem, OR, and grew up
+          in the beautiful state of Alaska. Not wanting to move away from the
+          incomparable Pacific Northwest, I now live in western Washington.
+        </li>
+        <li>
+          I have experience working with the following languages, frameworks,
+          and libraries: JavaScript, ReactJS, NodeJS, HTML, CSS, SQL, MySQL,
+          NoSQL, Python, and R. I completed my education in the United Kingdom,
+          where I graduated with my Bachelor's in 2013 and my Master's in 2014.
+          If you would like to get in touch, don't hesitate to send me a message
+          and introduce yourself!
         </li>
       </ul>
     </div>

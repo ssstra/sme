@@ -9,7 +9,8 @@ function Home() {
           Hi, I'm <span>Shane</span>.
           <br />I live in Washington.
           <br />
-          I'm a developer with a background in data and political research.
+          I'm a software engineer with a background in data and political
+          research and freelance web development.
         </li>
 
         <li>
@@ -24,7 +25,7 @@ function Home() {
         </li>
         <li>
           <a target="_blank" href="https://github.com/ssstra" rel="noreferrer">
-            &nbsp; &nbsp; ↳&nbsp;Pay a visit to my github.
+            &nbsp; &nbsp; ↳&nbsp;Check out some of my recent projects on github.
           </a>
         </li>
       </ul>

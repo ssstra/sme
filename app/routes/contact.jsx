@@ -42,7 +42,7 @@ export default function Contact() {
             Your email: <input type="email" name="reply_to" id="reply_to" />
           </label>
           <label>What would you like to say? </label>
-          <textarea name="message" name="message" id="message"></textarea>
+          <textarea name="message" id="message"></textarea>
 
           <input
             type="submit"
