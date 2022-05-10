@@ -121,6 +121,10 @@ h1 {
   margin-left: 20px;
 }
 
+.container li {
+  padding-top: 20px;
+}
+
 .navbar ul li a {
   color: rgb(231, 231, 231);
   text-transform: uppercase;
