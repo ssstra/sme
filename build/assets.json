@@ -1,5 +1,5 @@
 {
-  "version": "72e35a87",
+  "version": "0dba2a9a",
   "entry": {
     "module": "/build/entry.client-WRSOMNZ7.js",
     "imports": [
@@ -41,7 +41,7 @@
       "id": "routes/me",
       "parentId": "root",
       "path": "me",
-      "module": "/build/routes/me-ZCK744UF.js",
+      "module": "/build/routes/me-CT4R6Z6B.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -97,5 +97,5 @@
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-72E35A87.js"
+  "url": "/build/manifest-0DBA2A9A.js"
 }
