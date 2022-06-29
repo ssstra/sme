@@ -67,11 +67,11 @@ h1 {
   justify-content: space-between;
   align-content: center;
   width: 100%;
-  max-width: 1111px;
-  text-align: left;
+  max-width: 1200px;
+  text-align: justify;
   margin-top: 10vh;
   padding: 0 30px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .container div {
@@ -79,7 +79,7 @@ h1 {
 }
 .container li a {
   background-color: rgba(255, 255, 83, 0.99);
-  font-size: 17px;
+  font-size: 20px;
   -webkit-transition: color 0.5s ease 0s;
   transition: color 0.5s ease 0s;
 }

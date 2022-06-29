@@ -19,7 +19,7 @@ init_react();
 init_react();
 
 // app/styles/global.css
-var global_default = "/build/_assets/global-GCBV6DZG.css";
+var global_default = "/build/_assets/global-KOKCU25C.css";
 
 // app/root.jsx
 var links = () => [{ rel: "stylesheet", href: global_default }];

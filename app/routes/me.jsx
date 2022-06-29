@@ -2,28 +2,34 @@ import { Outlet } from "remix";
 
 function Me() {
   return (
-    <div>
+    <div style={{ lineHeight: "1.5" }}>
       <h1>About Me</h1>
       <ul>
         <li>
-          Hello! My name's Shane and I'm a software engineer with a focus on web
-          applications and data analysis.
+          My name's Shane and I'm a software engineer with a focus on web
+          applications and research methodologies. I am always excited to engage
+          with new frameworks, libraries, and languages. I endeavor to build
+          projects with carefully considered features that come together to
+          ensure a functional, innovative, and accessible product for everyone.
         </li>
         <li>
-          I was born in Salem, OR, and grew up in the incomparable state of
-          Alaska. Not wanting to move away from the Pacific Northwest, I now
-          live in western Washington.
-        </li>
-        <li>
-          I have experience working with the following languages, frameworks,
-          and libraries: JavaScript, ReactJS, NodeJS, HTML, CSS, SQL, MySQL,
-          NoSQL, Python, and R.
+          I have a self-starter background, with teaching experience in the
+          social sciences, independent research experience, and experience
+          working in freelance web development and product editing.
         </li>
         <li>
           I completed my education in the United Kingdom, where I graduated with
           my Bachelor's in 2013 and my Master's in 2014.
         </li>
-        <li>If you would like to get in touch, please send me a message.</li>
+        <li>
+          If you would like to get in touch, please send me a message.
+          也会说中文。
+        </li>
+        <li>
+          <a target="_self" href="/" rel="noreferrer">
+            &nbsp; &nbsp; ↳&nbsp;Go back.
+          </a>
+        </li>
       </ul>
     </div>
   );

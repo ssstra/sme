@@ -6,10 +6,8 @@ function Home() {
       </h1>
       <ul>
         <li>
-          Hi, I'm <span>Shane</span>.
-          <br />
-          I'm a software engineer living in Washington with a background in data
-          and political research and freelance web development.
+          My name is <span>Shane</span> and I am a software engineer living in
+          Washington state.
         </li>
 
         <li>
@@ -24,7 +22,7 @@ function Home() {
         </li>
         <li>
           <a target="_blank" href="https://github.com/ssstra" rel="noreferrer">
-            &nbsp; &nbsp; ↳&nbsp;Check out some of my recent projects on GitHub.
+            &nbsp; &nbsp; ↳&nbsp;Check out some recent projects.
           </a>
         </li>
       </ul>
